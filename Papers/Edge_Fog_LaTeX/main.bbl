@@ -1,0 +1,95 @@
+\begin{thebibliography}{10}
+
+\bibitem{abbasi2021intelligent}
+M.~Abbasi, E.~Mohammadi-Pasand, and M.~R. Khosravi.
+\newblock Intelligent workload allocation in iot--fog--cloud architecture
+  towards mobile edge computing.
+\newblock {\em Computer Communications}, 169:71--80, 2021.
+
+\bibitem{abdel2021iega}
+M.~Abdel-Basset, R.~Mohamed, R.~K. Chakrabortty, and M.~J. Ryan.
+\newblock Iega: an improved elitism-based genetic algorithm for task scheduling
+  problem in fog computing.
+\newblock {\em International Journal of Intelligent Systems}, 36(9):4592--4631,
+  2021.
+
+\bibitem{abdel2020energy}
+M.~Abdel-Basset, R.~Mohamed, M.~Elhoseny, A.~K. Bashir, A.~Jolfaei, and
+  N.~Kumar.
+\newblock Energy-aware marine predators algorithm for task scheduling in
+  iot-based fog computing applications.
+\newblock {\em IEEE Transactions on Industrial Informatics}, 17(7):5068--5076,
+  2020.
+
+\bibitem{al2022bi}
+M.~A. Al-Tarawneh.
+\newblock Bi-objective optimization of application placement in fog computing
+  environments.
+\newblock {\em Journal of Ambient Intelligence and Humanized Computing},
+  13(1):445--468, 2022.
+
+\bibitem{bozorgchenani2020multi}
+A.~Bozorgchenani, F.~Mashhadi, D.~Tarchi, and S.~A.~S. Monroy.
+\newblock Multi-objective computation sharing in energy and delay constrained
+  mobile edge computing environments.
+\newblock {\em IEEE Transactions on Mobile Computing}, 20(10):2992--3005, 2020.
+
+\bibitem{canali2019fog}
+C.~Canali and R.~Lancellotti.
+\newblock A fog computing service placement for smart cities based on genetic
+  algorithms.
+\newblock In {\em CLOSER}, pages 81--89, 2019.
+
+\bibitem{chakraborty2022sustainable}
+S.~Chakraborty and K.~Mazumdar.
+\newblock Sustainable task offloading decision using genetic algorithm in
+  sensor mobile edge computing.
+\newblock {\em Journal of King Saud University-Computer and Information
+  Sciences}, 2022.
+
+\bibitem{hosseinioun2022atask}
+P.~Hosseinioun, M.~Kheirabadi, S.~R. Kamel~Tabbakh, and R.~Ghaemi.
+\newblock atask scheduling approaches in fog computing: A survey.
+\newblock {\em Transactions on Emerging Telecommunications Technologies},
+  33(3):e3792, 2022.
+
+\bibitem{hosseinioun2020new}
+P.~Hosseinioun, M.~Kheirabadi, S.~R.~K. Tabbakh, and R.~Ghaemi.
+\newblock A new energy-aware tasks scheduling approach in fog computing using
+  hybrid meta-heuristic algorithm.
+\newblock {\em Journal of Parallel and Distributed Computing}, 143:88--96,
+  2020.
+
+\bibitem{li2020joint}
+H.~Li, H.~Xu, C.~Zhou, X.~L{\"u}, and Z.~Han.
+\newblock Joint optimization strategy of computation offloading and resource
+  allocation in multi-access edge computing environment.
+\newblock {\em IEEE Transactions on Vehicular Technology}, 69(9):10214--10226,
+  2020.
+
+\bibitem{natesha2021adopting}
+B.~Natesha and R.~M.~R. Guddeti.
+\newblock Adopting elitism-based genetic algorithm for minimizing
+  multi-objective problems of iot service placement in fog computing
+  environment.
+\newblock {\em Journal of Network and Computer Applications}, 178:102972, 2021.
+
+\bibitem{sarrafzade2022genetic}
+N.~Sarrafzade, R.~Entezari-Maleki, and L.~Sousa.
+\newblock A genetic-based approach for service placement in fog computing.
+\newblock {\em The Journal of Supercomputing}, pages 1--22, 2022.
+
+\bibitem{wan2019task}
+L.~Wan, L.~Sun, X.~Kong, Y.~Yuan, K.~Sun, and F.~Xia.
+\newblock Task-driven resource assignment in mobile edge computing exploiting
+  evolutionary computation.
+\newblock {\em IEEE Wireless Communications}, 26(6):94--101, 2019.
+
+\bibitem{wang2020probability}
+J.~Wang, W.~Wu, Z.~Liao, R.~S. Sherratt, G.-J. Kim, O.~Alfarraj, A.~Alzubi, and
+  A.~Tolba.
+\newblock A probability preferred priori offloading mechanism in mobile edge
+  computing.
+\newblock {\em IEEE Access}, 8:39758--39767, 2020.
+
+\end{thebibliography}

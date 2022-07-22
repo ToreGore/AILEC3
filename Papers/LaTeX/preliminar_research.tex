@@ -1,0 +1,370 @@
+\section{Preliminar Research}\label{sect:preres}
+
+\subsection{Composite SaaS Placement and Resource Optimization in Cloud Computing Using Evolutionary Algorithms}
+\textbf{ANNO: 2012}~\cite{yusoh2012composite}\\
+Software as a Service (SaaS) is gaining more and more attention from software users and providers recently. 
+This has raised many new challenges to SaaS providers in providing better SaaSes that suit everyone needs at minimum costs. 
+One of the emerging approaches in tackling this challenge is by delivering the SaaS as a composite SaaS. 
+Delivering it in such an approach has a number of benefits, including flexible offering
+of the SaaS functions and decreased cost of subscription for users. \\
+However, this approach also introduces new problems for SaaS resource management in a Cloud data centre. 
+We present the problem of composite SaaS resource management in Cloud data centre, specifically on its initial placement and
+resource optimization problems aiming at improving the SaaS performance based on its execution time as well as minimizing
+the resource usage. \\
+This approach differs from existing literature because it addresses the problems resulting from composite
+SaaS characteristics, where we focus on the SaaS requirements, constraints and interdependencies. 
+The problems are tackled using evolutionary algorithms. 
+Experimental results demonstrate the efficiency and the scalability of the proposed algorithms.\\
+We have presented the problem of composite SaaS in
+Cloud data centre, specifically on its initial placement and
+resource optimization problems. Both problems are formulated
+as combinatorial optimization problems aiming at improving
+the SaaS performance based on its execution time as well
+as minimizing the resource usage. This work differs from
+all existing research work as it addresses the problems resulting from composite SaaS characteristics, focusing on its
+requirements, constraints and interdependencies rather than from platform (visualization/hardware) aspects.\\
+We tackled the two combinatorial optimization problems
+using two different paradigms of evolutionary algorithms.
+Based on the experimental results, the proposed algorithms
+always produce a feasible and satisfactory solution to all the
+test problems. Although the computation time taken is quite
+long, it is still acceptable considering that there are various
+types of maintenance in a data centre that are conducted at
+different time scales - in term of seconds to hours.\\
+As for our future research work, first, we note that we can
+improve the implementation of the algorithms to reduce their
+computation time. The algorithms can be implemented in a
+parallel manner where the Cloud network can be decomposed
+into several segments. Second, we plan to investigate on
+possible integration of solutions for these problems.\\
+
+\textbf{Questo lavoro è uno dei più vecchi trovati sull'argomento. È del 2012 ma sottolinea le basi di ciò che è stato sviluppato nei lavori discussi in precedenza.}
+
+
+\subsection{A power efficient genetic algorithm for resource allocation in cloud computing data centers}
+\textbf{Anno: 2014}~\cite{portaluri2014power}\\
+One of the main challenges in cloud computing is to increase the availability of computational resources, while minimizing system power consumption and operational expenses. 
+This article introduces a power efficient resource allocation algorithm for tasks in cloud computing data centers. 
+The developed approach is based on genetic algorithms which ensure performance and scalability to millions of tasks. 
+Resource allocation is performed taking into account computational and networking requirements of tasks and optimizes task completion time and data center power consumption.
+The evaluation results, obtained using a dedicated open source genetic multi-objective framework called jMetal show that the developed approach is able to perform the static 
+allocation of a large number of independent tasks on homogeneous single-core servers within the same data center with a quadratic time complexity.\\
+
+In this paper we introduce a power efficient resource allocation algorithm for cloud computing data centers which is based on genetic heuristics. 
+The proposed approach finds a set of non-dominated solutions in this multi-objective computation minimizing makespan and power consumption of the system.
+When the execution of the algorithm is completed and optimal Pareto solutions are obtained, it becomes is possible to fine
+tune the trade-off between power consumption and execution time. 
+The proposed algorithm shows quadratic complexity dependency on with the respect to the number of tasks to be allocated.
+Future work will focus on model adaptation to dynamic task allocation, account for internal communications, electricity
+cost and data center load factor and provide comparisons with other state-of-the-art algorithms.\\
+
+\textbf{Il paper propone un algoritmo ex novo che sia energeticamente efficiente. L'algoritmo è basato su euristiche genetiche. Problema: ha complessità quadratica.}
+
+
+\subsection{A Survey of Evolutionary Computation for Resource Management of Processing in Cloud Computing [Review Article]}
+\textbf{ANNO: 2015}~\cite{7083783}\\
+Cloud computing is significantly reshaping the computing industry. 
+Individuals and small organizations can benefit from using state-of-the-art services and infrastructure,
+while large companies are attracted by the flexibility and the speed with which they can obtain the services. 
+Service providers compete to offer the most attractive conditions at the lowest prices. 
+However, the environmental impact and legal aspects of cloud solutions pose additional challenges. 
+Indeed, the new cloud-related techniques for resource virtualization and sharing and the corresponding service level agreements 
+call for new optimization models and solutions. 
+It is important for computational intelligence researchers to understand the novelties introduced by cloud computing. 
+The current survey highlights and classifies key research questions, the current state of the art, and open problems.\\
+
+This survey has presented a wide range of CC problems addressed by all major CI paradigms. 
+CI proves to be applicable to multiple resource management problems that exist at all layers of CC.
+The advantages of CI paradigms in the field of CC are complementary: 
+\begin{itemize}
+    \item ANNs can be used to predict workloads;
+    \item FSs may be used to deal with uncertainties;
+    \item EAs may be applied for search and optimization.
+\end{itemize}
+CI and CC are in fact cross-fertilizing: 
+\begin{itemize}
+    \item CI contributes multiple tools that can deal with the dynamics, the uncertainty, the
+    growing scale and multiple objectives of cloud systems;
+    \item CC proposes challenging new problems that lead to the creation and the improvement of CI theory and practice.
+\end{itemize}
+As CC proves to be a new major paradigm, with growing market share and
+research interest, and as CI becomes more widely applied and accepted in real-life
+(often critical) systems, everything suggests that the connections between CI and CC will expand and strengthen over time. \\
+There is still plenty of room for improvement, exploration, and hybridization of novel approaches to the optimization in the domain of CC.
+The current state of the art is merely an introduction to the solution of the wide range of novel challenging CC problems. 
+\textbf{The most promising are likely to be connected with holistic and cross-layer optimization}. 
+Due to the multiplicity of involved factors, a multiagent or game theoretic approach may
+be necessary to coordinate all engaged CI tools. \\
+There are other opportunities for hybridization, such as joining CI with machine learning or mathematical programming: 
+the former for increased adaptability, the latter for accuracy and predictability of results. 
+On the technical side, the CC landscape is continuously evolving, impacting the relevance
+of the existing problems and the emergence of new ones. 
+Hybrid clouds are prominent examples, using multiple CC deployment models in a single system.\\
+Despite sketching the landscape of CC resource management problems in this survey, 
+\textbf{there is still no uniform formal framework that could serve as a precise, simple, and detailed classification of the field.} 
+In conclusion, considering all the new challenging problems, research and development in this field are still in their
+infancy, and the opportunities for the CI community are manifold.
+
+\textbf{Per ora il paper più interessante sulla piazza. Spiega molto bene le idee dietro ciascun paradigma. 
+Non parla nello specifico di "risparmio energetico" ma di gestione delle risorse. Comunque interessantissimo.}
+
+
+\subsection{An Appraisal of Meta-Heuristic Resource Allocation Techniques for IaaS Cloud}
+\textbf{ANNO: 2016}~\cite{madni2016appraisal}\\
+This appraisal investigates the meta-heuristics resource allocation 
+techniques for maximizing financial gains and minimizing the financial expenses of cloud users for IaaS in cloud computing 
+environment. A total of $91$ studies ranging from $1954$ to $2015$ have been reviewed.\\
+Out of this set, $23$ are selected because they focus on the meta-heuristic algorithms.
+The selected papers are categorized into eight groups according to the optimization algorithms used. 
+Various issues addressed (optimal and dynamically resource allocation, 
+energy and QoS aware resource allocation, VM allocation and placement) were pointed out
+through resource allocation meta-heuristics algorithms. \\
+The improvement shows better performances in execution response time, energy consumption and cost.
+It enhances efficiency and QoS.
+The comprehensive review and systematic comparison of 
+meta-heuristic resource allocation algorithms described in this appraisal will help researchers 
+to analyze different techniques for future research directions.
+In this paper, we have reviewed most significant
+meta-heuristic algorithms for resource allocation in IaaS
+Cloud. Numerous techniques to enhance the performance of meta-heuristics have been considered 
+in these algorithms. 
+There does not seem to exist a meta-heuristic algorithm better than the others in terms of sheer superiority of performances.
+
+\textbf{Questo paper sembra molto interessante per le tecniche proposte e i loro paragoni. Posso sceglierne uno e sperimentare su quello.}
+
+
+\subsection{A survey and taxonomy on energy efficient resource allocation techniques for cloud computing systems}
+\textbf{ANNO: 2016}~\cite{hameed2016survey}\\
+In a cloud computing paradigm, energy efficient allocation of different virtualized ICT resources 
+(servers, storage disks, and networks, and the like) is a complex problem due to the presence of heterogeneous application 
+(e.g., content delivery networks, MapReduce, web applications, and the like) workloads having contentious
+allocation requirements in terms of ICT resource capacities (e.g., network bandwidth,
+processing speed, response time, etc.). Several recent papers have tried to address
+the issue of improving energy efficiency in allocating cloud resources to applications
+with varying degree of success. However, it doesn't seem to be any published paper on this subject that clearly 
+articulates the research problem and provides research taxonomy for succinct classification of existing techniques. 
+Hence, the main aim of this paper is to identify open challenges associated 
+with energy efficient resource allocation. 
+In this regard, the study, first, outlines the problem and existing hardware and software-based techniques available for this purpose. 
+Furthermore, available techniques already presented in the literature are summarized based
+on the energy-efficient research dimension taxonomy. 
+The advantages and disadvantages of the existing techniques are comprehensively analyzed against the proposed
+research dimension taxonomy namely: resource adaption policy, objective function,
+allocation method, allocation operation, and interoperability.
+In recent years, energy efficient resource allocation of datacenter resources has evolved
+as one the critical research issue. We have identified power and energy inefficiencies in
+hardware and software, and categorized existing techniques in the literature along with
+the summary of their benefits and limitations. We have discussed the resource allocation problem in general along 
+with associated challenges and issues. 
+Moreover, we discussed the advantages and disadvantages of various resource allocation strategies
+in literature, and highlighted open issues and future directions.
+
+\textbf{Paper un po' così, non è utilissimo. Usarlo come reference per altri paper più interessanti.}
+
+
+\subsection{A deep reinforcement learning based framework for power-efficient resource allocation in cloud RANs}
+\textbf{ANNO: 2017}~\cite{7997286}\\
+This paper is about \textit{Cloud Radio Access Networks (RANs)} and the improvement of the allocation of resources
+to minimize power consumption while meeting the demands of wireless users over a long operational period.  \\
+A framework based on \textit{Deep Reinforcement Learning} is presented to allocate resources in a power-efficient fashion.
+Specifically, three spaces are defined: 
+\begin{itemize}
+\item State space
+\item Action space
+\item Reward function
+\end{itemize}
+
+The reward function is for the DRL agent to apply a Deep NN to approximate the action-value function
+and fromulate the resource allocation problem for each decision epoch in a convex optimization problem. 
+The simulation results show it can achieve significant power savings while meeting user
+demands, and it can well handle highly dynamic cases. \\
+
+\textbf{Si tratta di un paper che esplora il deep reinforcement learning. 
+Interessante l'approccio presentato, non tratta di algoritmi genetici tuttavia.}
+
+
+\subsection{Evolutionary Algorithms in Cloud Computing from the Perspective of Energy Consumption: A Review}
+\textbf{ANNO: 2018}~\cite{8603582}\\
+
+Cloud Computing provides utility-based IT services. The services are available as pay per use. 
+Cloud gives advantage to organizations in setting up fundamental hardware and software requirements i.e. instead of purchasing hardware or software cloud services can be used. 
+The availability of cloud services any time and anywhere makes it a feasible solution for many applications. 
+cloud services are constrained by some parameters such as Quality of Service (QoS), efficient utilization of cloud resources, user budget, user deadlines, energy consumption etc. 
+In this article, we present a comprehensive review of techniques or algorithms designed to reduce energy consumption in cloud data centers. 
+The review covers Evolutionary Algorithms (EA) such as Particle Swarm Optimization (PSO), Ant Colony Optimization (ACO) and Genetic Algorithms (GA). 
+We discuss each technique with strengths and weaknesses. Target objectives of each algorithm are also compared. The article is concluded with future research directions.\\
+
+In this article, we present a comparative study of different
+methods based on Evolutionary Algorithms used to reduce energy consumption in cloud computing. 
+A comparative analysis is also presented. Authors in previous works have focused
+on some parameters, while others are not considered. 
+The developed methods should consider objectives that are related
+to each other. Improving one objective affects other objectives and makes it difficult to implement. 
+In most of the algorithms, the problem of privacy and security in cloud computing has not
+been considered while designing scheduling algorithm. 
+Cloud computing is vulnerable to various security attacks and the
+developed methods should consider this objective as well.\\
+
+\textbf{Il paper per ora più recente collegato all'argomento di tesi. Non pare che ce ne sia uno più aggiornato. Raccoglie molti studi ed esperimenti passati. Molto molto utile.}
+
+
+\subsection{A Systematic Review of Energy Management Strategies for Resource Allocation in the Cloud: Clustering, Optimization and Machine Learning}
+\textbf{Anno: 2021}~\cite{jayaprakash2021systematic}\\
+Nowadays, many organizations and individual users are employing cloud services extensively due to their efficiency, reliability and low cost. 
+A key aspect for cloud data centers is to achieve management methods to reduce energy consumption, increasing the profit and reducing the environmental impact, which is critical
+in the deployment of leading-edge technologies today such as blockchain and digital finances, IoT, online gaming and video streaming. 
+In this review, various clustering, optimization, and machine learning methods used in cloud resource allocation to increase the energy efficiency and performance are analyzed, 
+compared and classified. \\
+Specifically, on the one hand, we discuss how clustering methods and optimization techniques are widely applied in energy management due to their capacity to provide solutions 
+for energy consumption reduction. On the other hand, we study how multi-objective optimization methods focus on reducing energy consumption as well as service level agreement 
+(SLA) violation, and improving quality of services (QoS) simultaneously. 
+Also, we discuss how optimization methods such as the firefly algorithm, whale optimization algorithm (WOA), particle swarm optimization (PSO) and genetic algorithm (GA) 
+provide the highest performance in the field. \\
+Moreover, we analyze how machine learning methods such as deep neural network (DNN), random forest, and support vector machine (SVM) 
+are applied to the prediction of energy consumption in the cloud, showing an accurate performance in this prediction. 
+Nevertheless, we study how the existing methods still have limitations of low convergence, trap into local optima and overfitting. \\
+
+In this review, various methods of clustering, optimization, and machine learning methods for the energy management in cloud resource allocation were discussed, 
+and a taxonomy was proposed. As analyzed, on the one hand, most of the clustering methods applied the k-means based method. 
+The k-means based methods have the limitation of random initial cluster that affects the efficiency of the model. 
+On the other hand, optimization methods such as the WOA, firefly algorithm, PSO and GA methods has higher efficiency in terms of energy. 
+Optimization methods have the limitations of the lower convergence and easily trap into local optima. \\
+Machine learning methods such as DNN, SVM, and random forest were applied for the energy consumption prediction and allocate the resource based on the prediction. 
+The DNN method has the limitation of overfitting problem and the SVM method has lower performance in the imbalance dataset. 
+Some of the existing research that displayed higher performance in the energy management employed the WOA, and DNN methods. \\
+Also, the NSGA-II optimization method is highly efficient for multi-objective optimization to optimize the energy consumption. 
+Mostly, the optimization methods have limitations of being trapped in local optima and poor convergence. 
+In the future, statistical methods should be applied to provide a better convergence and to increase the exploration and 
+exploitation of the optimization methods in cloud energy management for resource allocation.\\
+\textbf{Probabilmente il paper più rilevante, ed anche il più recente. Mostra comegli algoritmi genetici siano i più performanti in termini di energia.}
+
+
+\subsection{An advanced artificial intelligence technique for resource allocation by investigating and scheduling parallel-distributed request/response handling}
+\textbf{Anno: 2021}~\cite{geetha2021advanced}\\
+Cloud computing is an emerging technology undergoing various challenges that integrate parallel and distributed computing together. 
+In the multi-tenant environment cloud applications can be utilized as a service. 
+User request are enormous and therefore the attributes to be concerned about are scalability, reliability, and resource availability and server response.
+Utilization of software, platform and infrastructure increases in this environment paving way for resource consumption. 
+This scenario arises various types of issues through collision, trafc jam, data loss, request dropout and delay in response. 
+The past research provides solutions for aspects like scalability, resource allocation, scheduling, load balancing and optimized
+request and response handling, resource management through virtualization. The process of virtualization and migration of
+environment is difcult. The cost for allocating VM for a single user is less. \\
+The paper proposed a novel scheduling approach for handling unlimited incoming request with quality of service through energy and throughput. 
+The allocated resource focus on maintaining incoming job request, request for dispatch to the server and an acknowledgement for the receipt of response.
+The paper provides resource allocation methodology through scheduling approaches called integrating of AI techniques
+namely Genetic Algorithms (GA) and Artifcial Neural Networks (ANN). 
+The property of the request is analyzed and priorityis applied for scheduling the request using resource allocation.\\
+
+The main objective of this paper is to suggest artifcial intelligent technique for resource allocation by investigating and scheduling parallel distributed request response
+handling in cloud environment. 
+A priority value is fxed based on ftness value and jobs are prioritized and arranged
+in a queue and transferred to resource allocation. Based on ftness value resources are allocated.
+Jobs are optimized by calculating values of attributes assigned to incoming jobs. 
+For instance the Proposed ANNGA provides 0.5 ms whereas the existing ACO provides 1 ms for 20\% of fault detection. 
+Therefore resources are allocated and executed efectively in the proposed method.\\
+In the future we will increase the robustness of our algorithms by handling such errors dynamically. In addition, due
+to this performance degradation error, we will consider SLA negotiation in Cloud computing environments to improve the robustness. 
+We will also add diferent type of services and other pricing strategies such as spot pricing to increase the proft of service provider.
+\textbf{Alta rilevanza, includere assolutamente.}
+
+
+\subsection{Multi-objective Virtual Machine Placement in Virtualized Data Center Environments}
+\textbf{Anno: 2010}~\cite{xu2010multi}\\
+Server consolidation using virtualization technology
+has become increasingly important for improving data center
+efficiency. It enables one physical server to host multiple
+independent virtual machines (VMs), and the transparent
+movement of workloads from one server to another. Fine-grained
+virtual machine resource allocation and reallocation are possible
+in order to meet the performance targets of applications running
+on virtual machines. On the other hand, these capabilities create
+demands on system management, especially for large-scale data
+centers. In this paper, a two-level control system is proposed to
+manage the mappings of workloads to VMs and VMs to physical
+resources. The focus is on the VM placement problem which is
+posed as a multi-objective optimization problem of
+simultaneously minimizing total resource wastage, power
+consumption and thermal dissipation costs. An improved genetic
+algorithm with fuzzy multi-objective evaluation is proposed for
+efficiently searching the large solution space and conveniently
+combining possibly conflicting objectives. A simulation-based
+evaluation using power-consumption and thermal-dissipation
+models (learned from profiling of a BladeCenter), demonstrates
+the good performance, scalability and robustness of our proposed
+approach when compared with four well-known bin-packing
+algorithms and two single-objective approaches. Our approach
+can seek and find solutions that exhibit good balance among the
+conflicting objectives while others cannot. \\
+
+\textbf{Uno dei paper più vecchi che si occupa dell'argomento, citato praticamente da tutti gli altri.}
+
+\subsection{Cloud-IoT Resource Management Based on Artificial Intelligence for Energy Reduction}
+\textbf{Anno: 2022}~\cite{daoud2022cloud}\\
+The rapid growth in demand for cloud services has led to the creation of large-scale data centers, which allows application service providers to lease data center 
+capacity for application deployment as per user requirement in terms of quality of services (QoS). These data centers consume a lot of electrical power which 
+contributes to increased operating costs and carbon dioxide emissions. In addition, modern cloud computing environments must provide QoS for their customers which 
+leads them to a need to make a power-performance compromise that is to say in terms of energy consumption and service-level agreement (SLA) compliance. \\
+That is why, we introduce, in this paper, an intelligent resource management policy for cloud data centers. 
+The goal is to dynamically allocate and continuously consolidate virtual machines taking advantage of live migration and disengage inactive nodes to minimize 
+power feeding in this cloud environment while maintaining the quality of service. 
+We integrate some artificial intelligence concepts to ensure a dynamic resource management and a better power-performance compromise and significantly reduce the consumed energy.\\
+
+\textbf{Non usano algoritmi genetici ma Reinforcement Learning. Tuttavia, sembra un po' scarso come articolo. Comunque da tenere in cosiderazione}
+
+\subsection{Artificial Intelligence-Driven Mechanism for Edge Computing-Based Industrial Applications}
+\textbf{Anno: 2019}~\cite{sodhro2019artificial}\\
+Due to various limitations i.e., computational complexity and more delay in cloud computing is overtaken by edge
+computing for efficient and fair resource allocation such as, power and battery lifetime in internet of things (IoT) based industrial
+applications. In the meantime intelligent and accurate resource management by artificial intelligence (AI) has become the center of
+attention especially in industrial applications. With the coordination of AI at the edge will remarkably enhance the range and
+computational speed of IoT based devices in industries. But the challenging issue in these power hungry, short battery lifetime and
+delay intolerant portable devices is inappropriate and inefficient classical trends of fair resource allotment. Also, it is interpreted
+through extensive industrial data sets that dynamic wireless channel could not be supported by the typical power saving and
+battery lifetime techniques for example, predictive transmission power control (PTPC) and Baseline. Thus, this paper proposes i) a
+forward central dynamic and available approach (FCDAA) by adapting the running time of sensing and transmission processes in
+IoT-based portable devices ii) a system-level battery model by evaluating the energy dissipation in IoT devices iii) a data reliability
+model for edge artificial intelligence based IoT devices over hybird TPC and duty-cycle network. Two important cases for instance,
+static (i.e.,product processing) and dynamic (i.e., vibration and fault diagnosis) are introduced for proper monitoring of industrial
+platform. Experimental test-bed reveals that proposed FCDAA enhances energy efficiency and battery lifetime at acceptable
+reliability (0.95) by appropriately tuning duty-cycle and TPC unlike conventional methods.\\
+
+\textbf{Molto interessante e molte citazioni.}
+
+
+\subsection{Cloud and machine learning experiments applied to the energy management in a microgrid cluster}
+\textbf{Anno: 2021}~\cite{rosero2021cloud}\\
+The way to organize the generation, storage, and management of renewable energy and energy consumption
+features has taken relevance in recent years due to demands that define the social welfare of this century. Like
+demand increases, other factors require grid infrastructure improvement, updates, and opening to other technologies that assuage the final customer needs. Precisely, the interest in renewable energy sources, the constant
+evolution of energy storage technologies, the continuous research involving microgrid management systems, and
+the evolution of cloud computing technologies and machine learning strategies motivate the development of this
+article. Tasks associated with a microgrid cluster like the integration of a considerable number of heterogeneous
+devices, real-time support, information processing, massive storage capabilities, security considerations, and
+advanced optimization techniques usage could take place in an autonomous and scalable energy management
+system architecture under a machine learning perspective running in real-time and using Cloud resources. This
+paper focuses on identifying the elements considered by different authors to define a cloud-based architecture
+and ensure the appropriately supervised learning functionality under a microgrids cluster environment. Namely,
+it was necessary to revise and run microgrid simulations, real-time simulation platforms usage, connection to a
+virtual server for microgrid control and set the energy management system using cloud computing and machine
+learning. Based on the review and considering the scenarios mentioned, this article presents a scalable and
+autonomous cloud-based architecture that allows power generation forecast, energy consumption prediction, a
+real-time energy management system using machine learning techniques. \\
+\textbf{Qua più per il BG che offre sull'argomento che sulla parte di AI. Sono state usate esclusivamente tecniche di ML, non Ai in generale.}
+
+\subsection{Hybridization of firefly and Improved Multi-Objective Particle Swarm Optimization algorithm for energy efficient load balancing in Cloud Computing environments}
+\textbf{Anno: 2020}~\cite{DEVARAJ202036}\\
+Load balancing, in Cloud Computing (CC) environment, is defined as the method of splitting workloads and computing properties. 
+It enables the enterprises to manage workload demands or application demands by distributing the resources among computers, networks or servers. 
+In this research article, a new load balancing algorithm is proposed as a hybrid of firefly and 
+Improved Multi-Objective Particle Swarm Optimization (IMPSO) technique, abbreviated as FIMPSO. 
+This technique deploys Firefly (FF) algorithm to minimize the search space where as the IMPSO technique is implemented to identify the enhanced response. 
+The IMPSO algorithm works by selecting the global best (gbest) particle with a small distance of point to a line. 
+With the application of minimum distance from a point to a line, the gbest particle candidates could be elected. 
+The proposed FIMPSO algorithm achieved effective average load for making and enhanced the essential measures like proper resource usage and response time of the tasks. 
+The simulation outcome showed that the proposed FIMPSO model exhibited an effective performance when compared with other methods. 
+From the simulation outcome, it is understood that the FIMPSO algorithm yielded an effective result with the least average response time of 13.58ms, 
+maximum CPU utilization of 98\%, memory utilization of 93\%, reliability of 67\% and throughput of 72\% along with a make span of 148, 
+which was superior to all the other compared methods.\\
+
+\textbf{Paper interessante e con un discreto numero di citazioni nonostante sia molto recente. È il primo che incontro che propone uno algoritmo di swarm optimization.}
+

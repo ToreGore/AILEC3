@@ -1,0 +1,39 @@
+\documentclass[conference]{IEEEtran}
+
+\usepackage[hidelinks]{hyperref}
+\usepackage{todonotes}
+\usepackage{graphicx}
+\usepackage{tabularx}
+
+\newcommand{\dcomment}[1]{\todo[inline, color=green!40]{Dario: #1}}
+\newcommand{\ecomment}[1]{\todo[inline, color=red!40]{Ettore: #1}}
+
+\begin{document}
+
+\title{AILEC3 - Artificial Intelligence for Lower Energy Consumption in Fog-Edge Computing}
+
+\author{
+\IEEEauthorblockN{Ettore Tancredi Galante}
+\IEEEauthorblockA{\textit{Department of Computer Science} \\
+\textit{University of Milan} \\
+Milan, Italy \\
+ettoretancredi.galante@studenti.unimi.it}
+}
+
+\IEEEoverridecommandlockouts
+%\IEEEpubid{\makebox[\columnwidth]{978-1-6654-3886-5/21/\$31.00~\copyright2021 IEEE \hfill} \hspace{\columnsep}\makebox[\columnwidth]{ }}
+\maketitle
+\IEEEpubidadjcol
+
+\input{preliminar_research.tex}
+%\input{abstract.tex}
+%\input{introduction.tex}
+%\input{dataset.tex}
+%\input{networks.tex}
+%\input{experiment.tex}
+%\input{conclusions.tex}
+
+\bibliographystyle{abbrv}
+\bibliography{local}
+
+\end{document}

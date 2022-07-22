@@ -1,0 +1,387 @@
+\section{Preliminar Research}\label{sect:preres}
+
+\subsection{Riassunto e Considerazioni Finali}
+Partendo dal 2022 si hanno un paio di survey che elencano una serie di algoritmi che affrontano l'ambito della distribuzione dei task nel fog/edge computing in vista
+di un risparmio energetico e/o di un'ottimizzazione degli overhead di calcolo sui server.
+Gli algoritmi genetici sono praticamente sempre presi in considerazione e, tra questi, vi sono due Elitism-based Genetic Algorithms che paiono dare risultati interessanti.
+L'unica cosa da fare ora è focalizzarsi su una cerchia ristretta di paper e iniziare ad implementare.\\
+
+Il materiale raccolto è molto più rarefatto rispetto a quello riguardante il Cloud Computing ma c'era da aspettarselo vista la relativa novità dell'ambito considerato.
+Prima del 2019, oltretutto, viene data più rilevanza a "come" organizzare lo scheduling dei task nel fog/edge computing più che alla sua efficienza energetica.
+Tale ambito guadagna rilevanza proprio nel 2019 e aumenta esponenzialmente nel 2021/2022, tant'è che la maggior parte dei paper sono proprio di questi anni.\\
+Purtroppo per forza di cose ho dovuto troncare la raccolta perché, nonostante negli anni precedenti al 2019 ci sia poco materiale, soprattutto nel 2021 e nel 2022
+è stata fatta tantissima ricerca. Non ho commentato ciascun singolo paper, di tre o quattro ho citato solo il titolo per non appesantire troppo.
+
+\newpage
+
+\subsection{aTask scheduling approaches in fog computing: A survey}~\cite{hosseinioun2022atask}
+The advent of the Internet of Things brings a wave of research, technology, and computing. 
+The Internet of Things has brought a concept called the fog computing, which has launched many discussions in the scientific community. 
+In a fog environment, a requested service decomposed into a set of tasks and applied with an optimal approach to schedule these tasks across the fog devices to serve
+the user requirements is an important challenge. 
+In spite of the task scheduling approaches being a necessity in fog computing, to the best of our knowledge,
+there is no comprehensive survey in the field of task scheduling approaches in fog computing. 
+This paper provides a survey to analyze the current research studies in task scheduling approaches in fog computing from 2015 to 2018.
+Moreover, this paper classifies the task scheduling approaches in two fields: static and dynamic. 
+This study tries to discuss the advantages and disadvantages of each study to solve their weaknesses. 
+Providing a survey of the task scheduling approaches in the fog computing, planning a technical taxonomy for the task scheduling approaches, 
+and highlighting the future open issues in the recent topics are the contributions of this study. \\
+This paper surveyed all recent articles of task scheduling approaches in fog computing in 2015-2018.
+Moreover, this paper reviewed the selected mechanisms and investigated their algorithms and results in terms of tasks scheduling algorithms,
+evaluated factors, simulation environments, and task scheduling categories. 
+In this paper, we classified the task scheduling approaches as static and dynamic approaches. 
+The static approach includes heuristic and metaheuristic algorithms,
+and the dynamic approach contains real-time and heuristic methods. 
+As a result, the static approach and heuristic algorithms are more popular in task scheduling mechanism in fog computing. 
+The static task scheduling algorithms are the most popular algorithms by 76\% usage. 
+Heuristic-based algorithms are the most common task scheduling algorithms by 43\% usage. 
+The execution time factor is the most important factor and has 36\% usage.
+In the future work, some scheduling approaches such as hybrid scheduling, energy-aware scheduling, and reliability-based scheduling in the
+fog computing can be considered for SLR-based analysis and review. 
+In addition, resource provisioning approaches can be considered as SLR in fog computing.\\
+
+\textbf{Una survey interessante che pone al lettore una vasta gamma di algoritmi di scheduling utili nel fog computing.
+Certamente utilizzabile per vedere in che direzione andare.}
+
+
+\subsection{Sustainable task offloading decision using genetic algorithm in sensor mobile edge computing}~\cite{chakraborty2022sustainable}
+Propelling energy-constrained sensor tasks to edge servers in Sensor Mobile Edge Computing (SMEC) subjugates Mobile Devices' (MDs) 
+resource limitation menace. Most of the existing studies focused only on the offloading issues. 
+However, a task may hinge on some allied tasks executed in the prior edge server in the trajectory of MDs. 
+Task execution accomplishes by the assemblage of dependent data.\\
+This study imparts the dynamic selection of edge cloud for offloading tasks and checks the task’s dependencies in a multiuser, 
+multichannel environment. The proposed dynamic edge server selection for the inter-edge dependent task scheme piles up data from multiple 
+allied edge nodes to finish the execution. 
+This paper employs a Genetic Algorithm (GA) based optimization technique in the SMEC environment (GAME) to discern the optimal solution. 
+The performance of our proposal is analyzed and compared with the other offloading policies exerting standard datasets. 
+The result of this study manifests with the depletion of energy consumption and computational delay within the allowable range of transmission 
+latency, despite appraising multiple task dependencies.
+In this study, we propose the GAME scheme, a sustainable energy-efficient dynamic edge server selection process that considers the dependencies of tasks to other 
+edge servers and other wireless devices. 
+Executing edge server selection at the run time makes the process dynamic, moreover applying the heuristic searching algorithm, 
+we obtain the optimal solution in a stipulated amount of time. 
+It optimizes the energy requirement at its best after scheduling each task to its best possible edge resource. 
+The algorithm invests its best effort to adjust with the edge server assignment for the tasks that cannot be 
+executed locally to avoid the costliest cloud assignment process.\\
+We have compared our study with other state-of-art techniques (Zhao et al., 2019, Mazouzi et al., 2019), 
+and we have seen that our proposal exhibits better performance.
+For task dependency computation, the proposed model does not consider the centralized cloud server. 
+It can be outstretched by considering the dependent data from the costly cloud server too. 
+This model will attract researchers in the domain of distributed task execution. 
+It will enhance the future scope of the work by considering the microservice task execution and sequencing in the MEC network. 
+Furthermore, the proposed model can also be emphasized by incorporating the security features of the task executing MDs.\\
+
+\textbf{Nuovo stato dell'arte (dichiarato) egstire meglio la selezione degli edge server nell'edge mobile computing. 
+Potrebbe essere il punto di partenza per la mia implementazione.}
+
+
+\subsection{Bi-objective optimization of application placement in fog computing environments}~\cite{al2022bi}
+Fog computing has been recently introduced to complement the cloud computing paradigm and offer application services at the edge of the network. 
+The heterogeneity of fog computational nodes makes application placement in fog infrastructures a challenging task that requires proper management in order to 
+satisfy application requirements. This paper proposes a bi-objective application placement algorithm for fog computing environments. 
+The proposed algorithm seeks to optimally place application modules on the underlying fog devices considering applications criticality levels and security requirements. 
+The placement problem has been formulated as a bi-objective knapsack problem and solved using the non-dominated sorting genetic algorithm II (NSGA-II). 
+It has been implemented using a specialized fog computing simulation tool and compared against existing placement algorithms. 
+Simulation results demonstrate the ability of the proposed algorithm to optimize application placement in fog computing environments in terms of application performance, 
+power efficiency and security satisfaction rates.\\
+This paper has proposed a bi-objective application placement algorithm that aims at optimizing the placement of IoT
+applications on a tree-like fog infrastructure. IoT applications consist of a set of interconnected modules that follow
+a distributed data fow model. Each application is characterized by a criticality level and a set of security requirements.
+Unlike previous research eforts, this paper has considered application’s criticality and security requirements as simultaneous optimization variables. 
+The proposed algorithm has been implemented on a specialized fog computing simulation tool. 
+Its performance has been thoroughly analyzed and compared to existing algorithms. \\
+Simulation scenarios have covered various infrastructure confgurations, application security requirements and infrastructure security capabilities. 
+Simulation results have proved the ability of the proposed algorithm to capture the preference given to each objective and optimally place application modules on the
+underlying physical infrastructure and surpass other existing placement algorithms considering several fgures of merit such as application response time and security satisfaction rate.
+As a future work, the proposed algorithm will be extended to handle other factors such as trust considerations in fog environments, cost optimization in fog environments - where
+multiple service providers may exist, and energy dissipation of fog nodes. 
+In addition, the proposed algorithm will be tested on real-time testbeds and extended to handle dynamic changes of user preferences and application criticality levels.\\
+\textbf{Molto più interessante del paper precedente e più orientato all'obiettivo che si vorrebbe considerare in questa tesi.}
+
+
+\subsection{A genetic-based approach for service placement in fog computing}~\cite{sarrafzade2022genetic}
+The combination of cloud computing with the Internet of Things has made fundamental changes in areas from industry, healthcare, traffic, and transportation 
+to home appliances and even personal lives. 
+Billions of devices and users are connected through these platforms disseminating enormous amounts of data leading to performance degradation, 
+which has generated a demand for prior application placement planning. 
+This paper focuses on the minimization of application delay and network usage by proposing a genetic-based service placement algorithm in fog-cloud environments. 
+Throughout this work, a penalty-based approach to target both the delay and the number of time-consuming cloud placements is introduced, 
+which explores the solution pool as a function of generations. 
+This helps in exploring a wider space at the beginning and gradually intensifying the effect of penalty in the next generations. 
+In a separate phase, the proximity of the applications to the users is taken into account as well. 
+This is done through the chromosome selection process by using a priority value that identifies the proximity of dependent modules. 
+The results of simulations demonstrate that the proposed algorithm achieved improvements regarding delay, network usage, energy consumption, and cost.
+\\
+\textbf{Si trovasse qualcosa di più online sarebbe molto interessante. Non pare introdurre però nulla di nuovo rispetto ai paper precedenti.}
+
+
+\subsection{Adopting elitism-based Genetic Algorithm for minimizing multi-objective problems of IoT service placement in fog computing environment}~\cite{natesha2021adopting}
+Fog computing is an emerging computation technology for handling and processing the data from IoT devices.
+The devices such as the router, smart gateways, or micro-data centers are used as the fog nodes to host and
+service the IoT applications. However, the primary challenge in fog computing is to find the suitable nodes to
+deploy and run the IoT application services as these devices are geographically distributed and have limited
+computational resources. In this paper, we design the two-level resource provisioning fog framework using
+docker and containers and formulate the service placement problem in fog computing environment as a multiobjective 
+optimization problem for minimizing the service time, cost, energy consumption and thus ensuring the
+QoS of IoT applications. We solved the said multi-objective problem using the Elitism-based Genetic Algorithm
+(EGA). The proposed approach is evaluated on fog computing testbed developed using docker and containers on
+1.4 GHz 64-bit quad-core processor devices. The experimental results demonstrate that the proposed method
+outperforms other state-of-the-art service placement strategies considered for performance evaluation in terms of
+service cost, energy consumption, and service time. \\
+
+Fog Computing is the most suitable computing architecture for
+delay-sensitive IoT applications to process data at the edge of the
+network and provides service in real-time. In this work, we developed a
+docker and containers based two-level fog infrastructure to provide the
+resources. We then formulated the fog service placement problem as a
+multi-objective optimization problem to ensure the QoS of IoT
+applications. Further, we solved this optimization problem using the
+Elitism-based GA (EGA) service placement algorithm. We investigated
+different service placement strategies for IoT applications in the fog
+computing environment. We then experimented on the fog infrastructure testbed developed using the docker and containers on the cluster of
+1.4 GHz 64-bit quad-core processor devices. The experimental results
+demonstrate that the proposed EGA performs better than the other stateof-the-art service placement algorithms conisdered for performance
+evaluation in terms of service time, energy consumption, service cost,
+and average CPU utilization of fog nodes. But, one of the limitations of
+the work is we have not considered the interdependent IoT applications
+to check the performance of the proposed EGA on the developed fog
+testbed. In future work, we address the limitations and combine evolutionary algorithms to build a hybrid approach for solving the fog service
+placement problem, load balancing, service migration, and handling
+device failures in the fog computing environment. \\
+\textbf{Molto interessante l'approccio via Elitist-based Genetic Algoritm. Sembra un ottimo candidato per essere SOTA.} 
+
+
+\subsection{IEGA: An improved elitism-based genetic algorithm for task scheduling problem in fog computing}~\cite{abdel2021iega}
+Modern information technology, such as the internet of things (IoT) provides a real-time experience into how a system is performing and has been used in diversified
+areas spanning from machines, supply chain, and logistics to smart cities. IoT captures the changes in surrounding environments based on collections of
+distributed sensors and then sends the data to a fog computing (FC) layer for analysis and subsequent response. 
+The speed of decision in such a process relies on there being minimal delay, which requires efficient distribution of tasks among the fog nodes. 
+Since the utility of FC relies on the efficiency of this task scheduling task, improvements are always being sought in the speed of response. 
+Here, we suggest an improved elitism genetic algorithm (IEGA) for overcoming the task scheduling problem for FC to enhance the quality of services to users of IoT devices. \\
+The improvements offered by IEGA stem from two main phases: first, the mutation rate and crossover rate are manipulated to help the algorithms 
+in exploring most of the combinations that may form the near-optimal permutation; and a second phase mutates a number of solutions based on a certain 
+probability to avoid becoming trapped in local minima and to find a better solution.
+IEGA is compared with five recent robust optimization algorithms in addition to EGA in terms of makespan, flow time, fitness function, carbon dioxide emission
+rate, and energy consumption. IEGA is shown to be superior to all other algorithms in all respects.\\
+
+This study presents a new model based on the IEGA for addressing TSFC in IoT applications. IEGA was improved in two ways. 
+The first uses a high mutation rate that reduces with each iteration to explore each solution alone to complete better permutations that
+can achieve a better solution when recombining each permutation with another based on crossover rate; because the exploration capability tries to discover more regions than the
+mutation operator, so at the start, the mutation rate will start with a high value and reduce gradually with each iteration. 
+Then, the exploitation phase, which is based on the crossover operator, will increase to combine each pair of solutions in the hope of finding a better one. \\
+The second addition changes a small number of the dimensions in each solution to retain the diversity in the population in addition to avoiding local minima. 
+IEGA is compared with five robust recent optimization algorithms as well as EGA in terms of make-span, energy consumption, flow time, fitness function, and CDER. 
+IEGA is shown to be superior in comparison with all the other algorithms under make-span, energy consumption, fitness function, and CDER. \\
+However, for flow time, the proposed approach outperforms the others for tasks sizes higher than 700, which shows the superiority of the proposed with the large-scale problem. 
+In the future, IEGA will be used to address dependent task scheduling in the fog system.\\
+\textbf{La versione migliorata dell'algoritmo precedente. Potrei forse puntare su questo come baseline? Devo studiare meglio le caratteristiche dell'algoritmo.}
+
+
+\subsection{Intelligent workload allocation in IoT-Fog-Cloud architecture towards mobile edge computing}~\cite{abbasi2021intelligent}
+Because of the tremendous growth in the number of smart vehicular devices and 5G mobile technologies, the
+Internet of Things (IoT) has experienced rapid expansion. This has led to a considerable increase in the volume
+of sensory data produced from, but not limited to, monitoring devices, traffic congestion in cities, safety, and
+pollution control. Cloud computing can deal with the corresponding workload by providing virtually unlimited
+computational resources. But, given the importance of the quality of service and security in delay-sensitive
+requests, other solutions like fog computing have also been introduced to speed up processing and management
+of sensory data in real scenarios like smart grid and IoT. Processing workloads at the network edge reduces
+the delay in mobile edge computing, but it highly increases the consuming power. Therefore, there is an
+urgent need for the improvement of the energy model of fog devices at the network edge. This paper is an
+attempt to modify this model using the green energy concept and reduce both delay and power consumption in
+multi-sensorial frameworks in secure IoT systems. In the proposed method, a Genetic Algorithm (GA) is used
+for handling a large number of requests and the corresponding quality and security limitations. Simulation
+results show that the proposed method can simultaneously reduce the delay and the power consumption of
+edge devices compared to a baseline strategy.\\
+
+The transmission of large volumes of data from sensors to the cloud
+imposes long delays on the workloads in the 5G empowered IoT. In
+the meanwhile, processing these workloads at the mobile network edge
+will significantly increase power consumption. Therefore, workload
+allocation with an emphasis on delay to provide QoS as well as on
+energy consumption has become an important issue. Fog devices have
+relatively small delays, but their high power-consumption at the network edge leads to less workload being allocated to them. 
+In previous studies, workload allocation has been addressed without modifying the
+energy model of fog devices, which led to an increased delay for the
+end-user. In this study, we attempted to compromise between power
+consumption and delay in fog devices through the modification of the
+energy model of these devices using the NSGA II algorithm. The simulation results suggest that this modification not only reduces the power
+consumption of fog devices but also significantly decreases the delay in
+the processing of packets on the IoT. In comparison with the FEMTO
+method, the NSGA II algorithm resulted in a more significant reduction
+in both power consumption and delay for different workloads. In the
+two scenarios simulated using a genetic algorithm, the IoT requests
+were sent to the controller with full and half capacity. In both scenarios,
+power consumption, and delay were improved. Therefore, this model
+could be used in networks where green energy is not available to the
+processing resources. In these circumstances, solar or wind energy or
+any other renewable energies can be utilized as a complementary power
+supply to reduce the power consumption of fog devices.
+Deep learning methods, including deep neural networks, have proven
+to be powerful methods in many complicated multi-objective optimization problems [53,54]. Adapting these methods to the multi-objective
+workload allocation in secure MEC will be our future study.\\
+
+\textbf{Introduzione di due algoritmi da prendere in forte considerazione, ovvero NSGA2 e FEMTO. È forse uno dei pochi paper che nominano il risparmio energetico.}
+
+
+\subsection{A new energy-aware tasks scheduling approach in fog computing using hybrid meta-heuristic algorithm}~\cite{hosseinioun2020new}
+
+\subsection{A Probability Preferred Priori Offloading Mechanism in Mobile Edge Computing}~\cite{wang2020probability}
+Mobile edge computing (MEC) can provide computation and storage capabilities via edge
+servers which are closer to user devices (UDs). The MEC offloading system can be viewed as a system
+where each UD is covered by single or multiple edge servers. Existing works prefer a posterior design when
+task offloads, which can lead to increased workloads. To investigate the task offloading of edge computing
+in multi-coverage scenario and to reduce the workload during task offloading, a probability preferred priori
+offloading mechanism with joint optimization of offloading proportion and transmission power is presented
+in this paper. We first set up an expectation value which is determined by the offloading probability of
+heterogeneous edge servers, and then we form a utility function to balance the delay performance and
+energy consumption. Next, a distributed PRiori Offloading Mechanism with joint Offloading proportion
+and Transmission (PROMOT) power algorithm based on Genetic Algorithm (GA) is proposed to maximize
+the utility of UD. Finally, simulation results verify the superiority of our proposed scheme as compared
+with other popular methods. \\
+In this work, we investigated the mobile edge computing
+(MEC) model which UDs are covered by single or multiple
+edge servers. In that case, we proposed a probability
+preferred priori offloading mechanism with joint optimized
+offloading proportion and transmission power. A utility
+function with UD’s time and energy consumption is formed,
+then the GA based PROMOT algorithm is used to solve the
+problem and the best offloading proportion and transmission
+power can be obtained for maximizing the UD utility.
+We only consider offloading task to one single edge server
+under the scenario that UDs are covered by single or multiple
+edge server(s) in this paper, and if UD is covered by multiple
+edge servers, we can split a task into multiple subtasks, and
+offloading those subtasks in a distributed way. In that case,
+we need to calculate the best proportion for each subtask and
+find a unified transmission power. A device-to-device (D2D)
+offloading is not considered in this paper. Thus, we can add a
+D2D offloading in the future work for some UDs have more
+enough computation capacities. \\
+\textbf{PROMOT incorpora anche il discorso probabilistico, un po' ignorato nelle altre ricerche.}
+
+
+\subsection{Joint Optimization Strategy of Computation Offloading and Resource Allocation in Multi-Access Edge Computing Environment}~\cite{li2020joint}
+
+
+\subsection{Multi-Objective Computation Sharing in Energy and Delay Constrained Mobile Edge Computing Environments}~\cite{bozorgchenani2020multi}
+In a mobile edge computing (MEC) network, mobile devices, also called edge clients, offload their computations to multiple
+edge servers that provide additional computing resources. Since the edge servers are placed at the network edge, e.g., cell-phone
+towers, transmission delays between edge servers and edge clients are shorter compared to those of cloud computing. In addition,
+edge clients can offload their tasks to other nearby edge clients with available computing resources by exploiting the Fog Computing
+(FC) paradigm. A major challenge in MEC and FC networks is to assign the tasks from edge clients to edge servers, as well as to other
+edge clients, in such a way that their tasks are completed with minimum energy consumption and minimum processing delay. In this
+paper, we model task offloading in MEC as a constrained multi-objective optimization problem (CMOP) that minimizes both the energy
+consumption and task processing delay of the mobile devices. To solve the CMOP, we design an evolutionary algorithm that can
+efficiently find a representative sample of the best trade-offs between energy consumption and task processing delay, i.e., the
+Pareto-optimal front. Compared to existing approaches for task offloading in MEC, we see that our approach finds offloading decisions
+with lower energy consumption and task processing delay.\\
+In this work, we have considered a computation sharing
+problem in MEC. The considered scenario is composed by
+ECs and ENs, where the ECs have the ability to offload
+their tasks to the nearby ECs and ENs. A computation
+sharing system model has been developed where the goal
+is to jointly minimize the energy consumption and the
+task delay when offloading the tasks portions to different
+devices. A suitable MOEA has been proposed for optimizing the computation sharing problem by considering both
+average task delay and average EC energy consumption.
+The numerical results shows that through the evolutionary
+steps of the NSGA2 it is possible to optimize both energy
+and delay and achieving better results than benchmark
+solutions. Moreover, the proposed NSGA2-based approach
+result in prolonging the network lifetime by optimizing the
+amount to be offloaded by the ECs. Furthermore, we have
+analyzed the effect of number of iterations in the genetic
+algorithm and have observed the convergence of the Pareto
+fronts in different scenarios with variable number of ECs.
+In the end, it can be noticed that the Constrained-NSGA2
+approach with a quite low time complexity can have results
+close to the NSGA2 approach.
+
+\subsection{Energy-Aware Marine Predators Algorithm for Task Scheduling in IoT-Based Fog Computing Applications}~\cite{abdel2020energy}
+To improve the quality of service (QOS) needed by
+several applications areas, the internet of things (IoT) tasks is
+offloaded into the Fog computing instead of the cloud. However,
+the availability of ongoing energy heads for fog computing servers
+is one of the constraints for IoT applications because transmitting
+the huge quantity of the data generated using IoT devices will
+produce network bandwidth overhead and slow down the
+responsive time of the statements analyze. In this work, an energyaware model basis on the marine predators algorithm (MPA) is
+proposed for tackling the task scheduling in Fog computing
+(TSFC) to improve the QOSs required by users. In addition to the
+standard MPA, we proposed the other two versions. The first
+version is called modified MPA (MMPA), will modify MPA to
+improve their exploitation capability by using the last updated
+positions instead of the last best one. The second one will improve
+MMPA by the ranking strategy-based re-initialization and
+mutation toward best, in addition to re-initializing, the half
+population randomly after a predefined number of iterations to
+get rid of local optima and mutated the last half toward the best
+so-far. Accordingly, MPA is proposed to solve the continuous one
+while the TSFC is considered a discrete one, so the normalization
+and scaling phase will be used to convert the standard MPA into a
+discrete one. The three versions are proposed with some other
+meta-heuristic algorithms and genetic algorithms based on various
+performance metrics such as energy consumption, make-span,
+flow time, and carbon dioxide emission rate. The improved
+MMPA (IMMPA) could outperform all the other algorithms and
+the other two versions. \\
+In this paper, a new energy-aware algorithm based on a novel metaheuristic algorithm known as marine predators algorithm (MPA) is
+proposed for tackling the TSFC problem in IoT applications. In this
+paper, two versions of MPA in addition to the standard one has
+been proposed for tackling the TSFC. The first version is called a
+modification marine predators algorithm (MMPA), this version
+improves the standard one by using the past updated positions for
+generating a new one in the next generation. Regarding the second
+version, the MPA is improved using a Ranking strategy based reinitialization randomly and mutation two the best. A probability
+has been used to tradeoff between the re-initialization randomly or
+moving toward the best one. Because the standard MPA is
+proposed for tackling the continuous problem and the TSFC is
+considered a discrete one, so the normalization and scaling phase
+is using to solve this problem. Our proposed algorithm is compared
+with four meta-heuristic algorithms (WOA, SCA, SSA, and EOA)
+and the genetic algorithm to check their efficacy. Each obtained
+solutions is evaluated based on six performance metrics: makespan, energy consumption, costs, flow time, and carbon dioxide
+emission rate. The results show the superiority of IMMPA. In the
+future, MPA will be applied to schedule the dependent tasks in the
+fog system. Also, MPA could be applied for solving multidimensional knapsack problems and DNA fragment assembly
+problem. \\
+\textbf{Interessante l'uso di un algoritmo raro come il Marine Predators Algorithm. Buon numero di citazioni e risultati interessanti.}
+
+
+\subsection{A genetic algorithm for energy efficient fog layer resource management in context-aware smart cities}~\cite{}
+The development of novel Information and Communication Technology (ICT) based solutions becomes essential
+to meet the ever increasing rate of global urbanization in order to satiate the constraint in resources. The popular
+smart city paradigm is characterized by ubiquitous cyber provisions for the monitoring and control of such city’s
+critical infrastructures, encompassing healthcare, environment, transportation and utilities among others. In
+order to manage the numerous services keeping their Quality of Service (QoS) demands upright, it is imperative
+to employ context aware computing as well as fog computing simultaneously. This paper investigates the
+feasibility of energy minimization at the fog layer through intelligent sleep and wake-up cycles of the fog nodes
+which are context-aware. It proposes a virtual machine management approach for effectively allocating service
+requests with a minimal number of active fog nodes using a genetic algorithm (GA); 
+and thereafter, a reinforcement learning (RL) approach is incorporated to optimize the period of fog nodes’ duty cycle. 
+Simulations are carried out using MATLAB and the results demonstrate that the proposed scheme improves energy consumption
+of the fog layer by approximately 11$$-$$21\% when compared to existing context sharing based algorithms. \\
+This article proposes a VM management model at fog layer of smart
+cities that combines the features of a SCS algorithm and a GA optimization approach utilizing fog node resources’ computation,
+memory and network bandwidth optimally. The proposed technique is
+simulated using iFogSim toolkit and adequate experiments are performed to evaluate its performance. The performance of the proposed
+approach is compared with existing SCS technique using the vital performance metrics namely, number of migrations and energy utilization.
+It is observed that the proposed hybrid SCS-GA technique outperforms
+the existing SCS technique by reducing overall completion time and QoS
+violations. This is possible by assigning the service requests to the best
+available VMs within fog nodes. The integrated SCS algorithm and
+optimized VM management model is able to reduce the number of migrations and energy utilization to a greater extent. In addition, RL based
+duty cycling slot prediction approach also effectively reduces the energy
+consumption of fog nodes. In future, the impact of incorporating learning can be studied by employing a comparative study to divulge effective schemes. 
+Besides, an attempt to compile a real-life dataset is currently underway, which shall be employed to test the efficacy of the proposed scheme in a more credible manner.\\
+\textbf{Interessante l'approccio sonno-veglia dei nodi fog a cui si applica il Genetic Algorithm per allocare in maniera efficiente le richieste di servizio.
+La parte di RL per gestire la durata del ciclo di sonno nei nodi è interessante e non ho ancora trovato un approccio che la proponga. I risultati ottenuti sono molto promettenti.
+Peccato sia stato scritto in MATLAB ma difficilmente dovrò leggermi l'implementazione "cruda", avendo l'algoritmo mal che vada implementerò da me.}
+
+
+\subsection{Task-driven resource assignment in mobile edge computing exploiting evolutionary computation}~\cite{wan2019task}
+
+
+\subsection{A Fog Computing Service Placement for Smart Cities based on Genetic Algorithms}~\cite{canali2019fog}
+
+
