@@ -1,0 +1,21 @@
+\section{The Problem}\label{sect:problem}
+
+The problem here described is a problem of optimization. 
+The goal is to find an acceptable solution by using a genetic algorithm to the assignation of a set of processes to a set of servers.
+The problem is defined as follows:\\
+A Servers $s$ has a CPU speed $cs$, calculated in Gigahertz (GHz) and a number of CPUs $cn$.\\
+A Process $p$ has a length $l$, calculated in number of instructions.\\
+A Solution $sol$ is a collection of tuples $(s_n, [p_1, p_2, ..., p_m])_{n}$ where $s_n$ is the $n^{th}$ Server of the tuple 
+and $[p_1, p_2, ..., p_m]$, with variable $m$ for each tuple, is a list of Processes.\\
+Let's define, for a Server, the following functions:
+\begin{itemize}
+    \item $cs(s)$: CPU speed of the Server $s$;
+    \item $cn(s)$: Number of CPUs of the Server $s$.\\
+\end{itemize}
+For a process, we define the following function:
+\begin{itemize}
+    \item $l(p)$: Length of the Process $p$.\\
+\end{itemize}
+
+For a solution $sol$, The fitness function $f$ of $sol$ is defined as follows:
+$$f(sol) = \sqrt{\sum_{0}^{n}{(\sum_{0}^{m}l(p_m) * (cs(s_n) * cn(s_n)))^2}}$$
