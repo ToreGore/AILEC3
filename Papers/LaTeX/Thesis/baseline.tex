@@ -1,9 +1,9 @@
-\section{Baseline}\label{sect:baseline}
+\section{Baseline}\label{sect:baseline} 
 
-The baseline algorithm defined in this study is a standard genetic algorithm (GA) that is used to optimize 
-process allocation in cloud computing environments.
+The baseline algorithm defined in this study is a standard genetic algorithm (GA)~\cite{mitchell1998introduction} that is used to optimize 
+process allocation in cloud computing environments. The idea is that by optimizing the process allocation, the energy consumed by the cloud envirnoment is minimized as well.
 The GA is a stochastic population-based search algorithm that is based on the principles of natural selection and genetics.
-It is a meta-heuristic that is used to find approximate solutions to optimization problems.
+It is a meta-heuristic that is used to find approximate solutions to optimization problems.~\cite{kramer2017genetic}
 
 The GA is composed of the following components:
 \begin{itemize}
@@ -29,3 +29,31 @@ For each Server, from the list of all the Processes, iteratively, a process is s
 with $n$ being the number of servers taken into account in the solution. As a Process is selected, it is removed from the global Process list.\\
 
 Then, the fitness function~\eqref{fitness}, is used to evaluate the quality of each candidate solution.
+
+% Discuss about the parameters of the GA
+The baseline genetic algorithm has been tested over a pletora of parameters, in order to find the best combination that would lead to acceptable results.
+The parameters that have been tested are:
+\begin{itemize}
+    \item The probability of selecting a process for a server;
+    \item The crossover rate;
+    \item The probability of mutation;
+    \item The number of generations.
+\end{itemize}
+
+The selection probability $p_s$ is equal to $\frac{1}{\#_servers}$. In the first settings of the experiments this value was 
+set in different ranges bewtween $[0.3, 0.6]$, but this not only led to a very slow convergence of the GA but produced undesired noise
+in the results in most of the experiments.\\
+
+The crossover rate $p_c$ is set to $0.9$. A starting value of $0.5$ was used, but this led to unsatisfactory results, opposed to what~\cite{mirjalili2019genetic} claimed
+in their research.
+Better results were obtained by increasing the crossover rate to $0.7$ but the best ones were yield by $p_c = 0.9$, supported by~\cite{hassanat2019choosing}.\\
+\\
+
+This value has been tested in the range $$[0.3, 0.6]$$, but the results were not satisfactory.\\
+
+% Discuss about the results of the GA
+
+% Compare with papers implementing GAs in cloud computing
+
+Over 500 generations, the GA is run to find the best solution.
+With parameters $p = 0.5$, $c = 0.5$, $m = 0.1$, and $t = 500$, the GA is able to find a solution that is 10\% better than the solution found by the greedy algorithm.
