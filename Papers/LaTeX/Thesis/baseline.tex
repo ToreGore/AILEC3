@@ -37,23 +37,38 @@ The parameters that have been tested are:
     \item The probability of selecting a process for a server;
     \item The crossover rate;
     \item The probability of mutation;
+    \item The population size;
     \item The number of generations.
 \end{itemize}
 
-The selection probability $p_s$ is equal to $\frac{1}{\#_servers}$. In the first settings of the experiments this value was 
-set in different ranges bewtween $[0.3, 0.6]$, but this not only led to a very slow convergence of the GA but produced undesired noise
-in the results in most of the experiments.\\
-
+The selection probability $p_s$ is equal to $\frac{1}{\#_{servers}}$. In the first settings of the experiments this value was 
+set in different ranges between $[0.3, 0.6]$, but this not only led to a very slow convergence of the GA but produced undesired noise
+in the results in most of the experiments.
 The crossover rate $p_c$ is set to $0.9$. A starting value of $0.5$ was used, but this led to unsatisfactory results, opposed to what~\cite{mirjalili2019genetic} claimed
 in their research.
-Better results were obtained by increasing the crossover rate to $0.7$ but the best ones were yield by $p_c = 0.9$, supported by~\cite{hassanat2019choosing}.\\
-\\
+Better results were obtained by increasing the crossover rate to $0.7$, but the best ones were yield by $p_c = 0.9$, supported by~\cite{hassanat2019choosing}.
+The probability of mutation $p_m$ has been initially tested in the range $[0.1, 0.3]$. However, as found in previous research works,
+a mutation rate over $0.01$ is a synonym of heavy noisy training epochs and close to no convergence. In fact, it has been found that 
+the optimal values for the mutation rate ranges in $[0.005, 0.05]$ for a population size $s_p$ between $100$ and $200$ individuals.~\cite{patil2015optimal}
+It follows that the chosen parameters for the mutation rate are $p_m = 0.01$ and $s_p = 200$.
 
-This value has been tested in the range $$[0.3, 0.6]$$, but the results were not satisfactory.\\
+As for the number of epochs employed, for both hardware constraints and time reasons, the GA has been run for a maximum of $500$ generations.
+For each experiment, the GA is run $10$ times and the results are averaged in order to obtain an insightful overlook of the performances.
 
-% Discuss about the results of the GA
+The baseline algorithm has been created to be initially compared to a greedy assignation method of simple ideation.
+The fitness function employed in the baseline algorithm has been used to compare the results between the greedy method and the baseline algorithm.
+\ecomment{Compare the greedy and the baseline algorithm.}
 
-% Compare with papers implementing GAs in cloud computing
+% include the graphics
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{../../../Code/Genetic/results/baseline/graphs/pop_size_200/500_epochs/average_fitness.png}
+    \caption{The average of the Baseline Algorithm over $500$ epochs}
+    \label{fig:average_baseline}
+\end{figure}
 
-Over 500 generations, the GA is run to find the best solution.
-With parameters $p = 0.5$, $c = 0.5$, $m = 0.1$, and $t = 500$, the GA is able to find a solution that is 10\% better than the solution found by the greedy algorithm.
+As it can be seen from the results in Figure~\ref{fig:average_baseline}, the fitness function evaluated with the baseline algorithm shows promising results
+in a time range comprised between $200$ and $250$ epochs, with its minimum at $230$.
+\ecomment{Insert the maximum value from the starting point, the minimum value and the corresponding epoch.}
+
+\ecomment{Discuss about the results of the greedy algorithm}

@@ -1,10 +1,10 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{dillon2010cloud}
 T.~Dillon, C.~Wu, and E.~Chang.
 \newblock Cloud computing: issues and challenges.
 \newblock In {\em 2010 24th IEEE international conference on advanced
-  information networking and applications}, pages 27--33. Ieee, 2010.
+  information networking and applications}, pages 27--33. IEEE, 2010.
 
 \bibitem{forrest1996genetic}
 S.~Forrest.
@@ -12,8 +12,8 @@ S.~Forrest.
 \newblock {\em ACM computing surveys (CSUR)}, 28(1):77--80, 1996.
 
 \bibitem{hassanat2019choosing}
-A.~Hassanat, K.~Almohammadi, E.~Alkafaween, E.~Abunawas, A.~Hammouri, and V.~S.
-  Prasath.
+A.~Hassanat, K.~Almohammadi, E.-a. Alkafaween, E.~Abunawas, A.~Hammouri, and
+  V.~S. Prasath.
 \newblock Choosing mutation and crossover ratios for genetic algorithms—a
   review with a new dynamic approach.
 \newblock {\em Information}, 10(12):390, 2019.
@@ -33,6 +33,13 @@ S.~Mirjalili and S.~Mirjalili.
 M.~Mitchell.
 \newblock {\em An introduction to genetic algorithms}.
 \newblock MIT press, 1998.
+
+\bibitem{patil2015optimal}
+V.~Patil and D.~Pawar.
+\newblock The optimal crossover or mutation rates in genetic algorithm: A
+  review.
+\newblock {\em International Journal of Applied Engineering and Technology},
+  2015.
 
 \bibitem{sajid2013cloud}
 M.~Sajid and Z.~Raza.
