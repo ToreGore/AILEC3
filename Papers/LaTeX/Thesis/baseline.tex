@@ -69,12 +69,48 @@ The fitness function employed in the baseline algorithm has been used to compare
 \end{figure}
 
 
-
-
-
-
 As it can be seen from the results in Figure~\ref{fig:average_baseline}, the fitness function evaluated with the baseline algorithm shows promising results
-in a time range comprised between $200$ and $250$ epochs, with its minimum at $230$.
-\ecomment{Insert the maximum value from the starting point, the minimum value and the corresponding epoch.}
+in a time range comprised between $200$ and $250$ epochs, with its minimum at $231$.
+The worst average value of the fitness function in the baseline algorithm is reached in the $2nd$ training epoch, and it is equal to $1.244$.
+Moreover, the best average value is reached in the $231th$ epoch, and it is equal to $1.224$.
 
-\ecomment{Discuss about the results of the greedy algorithm}
+% Create a table with 10 rows and 2 columns. 
+% On the left columns there is written Server X with X ranging from 0 to 9.
+% On the right columns there is written the average fitness value for the server X. 
+% There is an eleventh row with two columns that has on the left "Magnitude" and on the right the magnitude.
+% The table should be centered and the caption should be below the table.
+
+\begin{table}[ht]
+    \centering
+    \begin{tabular}{|c|c|}
+        \hline
+        Server & Average Fitness \\
+        \hline
+        Server 0 & 0.447 \\
+        Server 1 & 0.415 \\
+        Server 2 & 0.444 \\
+        Server 3 & 0.204 \\
+        Server 4 & 0.420 \\
+        Server 5 & 0.331 \\
+        Server 6 & 0.394 \\
+        Server 7 & 0.425 \\
+        Server 8 & 0.208 \\
+        Server 9 & 0.495 \\
+        \hline
+        Magnitude & 1.233 \\
+        \hline
+    \end{tabular}
+    \caption{The average fitness for each server and the magnitude of the fitness vector.}
+    \label{tab:average_greedy_fitness}
+\end{table}
+
+When the values are compared to the ones of the greedy algorithm in Table~\ref{tab:average_greedy_fitness}, it can be seen that the baseline algorithm
+performs slightly better, since the two magnitudes of the fitness vectors are quite close to each other.
+However, the simple baseline genetic algorithm outperforms the greedy technique.\\
+
+Since this experimentation has been carried out with different measures of the fitness function, it is difficult to compare the results to the ones achieved
+by other researchers. However, it is possible to compare the results of the different paradigms, algorithms and metaheuristics in order to get a broader picture of the
+possible best approaches to adopt in order to solve the problem.
+In literature, many works do pair the effectiveness of genetic algorithms paired to greedy techniques. More often than not the latter, despite performing in a less
+than optimal way in these scenarios, can be used to improve the capabilities of GAs to obtain even better performances.~\cite{AHUJA2000917}
+
