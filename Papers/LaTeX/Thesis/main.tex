@@ -1,12 +1,12 @@
-\documentclass[conference]{IEEEtran}
-
+%\documentclass[conference]{IEEEtran}
+\documentclass{article}
 \usepackage[hidelinks]{hyperref}
 \usepackage{todonotes}
 \usepackage{graphicx}
 \usepackage{tabularx}
 \usepackage{amsmath}
+\usepackage{cite}
 
-\newcommand{\dcomment}[1]{\todo[inline, color=green!40]{Dario: #1}}
 \newcommand{\ecomment}[1]{\todo[inline, color=red!40]{Ettore: #1}}
 
 \begin{document}
@@ -14,21 +14,24 @@
 \title{AILEC3 - Artificial Intelligence for Lower Energy Consumption in Cloud Computing}
 
 \author{
-\IEEEauthorblockN{Ettore Tancredi Galante}
-\IEEEauthorblockA{\textit{Department of Computer Science} \\
+%\IEEEauthorblockN{Ettore Tancredi Galante}
+%\IEEEauthorblockA{\textit{Department of Computer Science} \\
+\textit{Ettore Tancredi Galante} \\
+\textit{Department of Computer Science} \\
 \textit{University of Milan} \\
-Milan, Italy \\
-ettoretancredi.galante@studenti.unimi.it}
+\textit{Milan, Italy} \\
+ettoretancredi.galante@studenti.unimi.it
 }
 
-\IEEEoverridecommandlockouts
+
+%\IEEEoverridecommandlockouts
 %\IEEEpubid{\makebox[\columnwidth]{978-1-6654-3886-5/21/\$31.00~\copyright2021 IEEE \hfill} \hspace{\columnsep}\makebox[\columnwidth]{ }}
 \maketitle
-
 \newpage
-
-\IEEEpubidadjcol
 \tableofcontents
+\newpage
+%\IEEEpubidadjcol
+
 \pagenumbering{arabic}
 \input{abstract.tex}
 \input{introduction.tex}

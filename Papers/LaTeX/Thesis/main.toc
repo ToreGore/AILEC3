@@ -1,11 +1,10 @@
-\contentsline {section}{\numberline {I}Abstract}{1}{section.1}% 
-\contentsline {section}{\numberline {II}Introduction}{1}{section.2}% 
-\contentsline {section}{\numberline {III}State of the Art}{2}{section.3}% 
-\contentsline {section}{\numberline {IV}Dataset}{2}{section.4}% 
-\contentsline {section}{\numberline {V}The Problem}{2}{section.5}% 
-\contentsline {section}{\numberline {VI}Baseline}{3}{section.6}% 
-\contentsline {section}{\numberline {VII}Experiments}{4}{section.7}% 
-\contentsline {section}{\numberline {VIII}Results}{4}{section.8}% 
-\contentsline {section}{\numberline {IX}Conclusions}{4}{section.9}% 
-\contentsline {section}{\numberline {X}Appendix}{4}{section.10}% 
-\contentsline {section}{References}{4}{section*.5}% 
+\contentsline {section}{\numberline {1}Abstract}{1}{section.1}%
+\contentsline {section}{\numberline {2}Introduction}{1}{section.2}%
+\contentsline {section}{\numberline {3}State of the Art}{3}{section.3}%
+\contentsline {section}{\numberline {4}Dataset}{3}{section.4}%
+\contentsline {section}{\numberline {5}The Problem}{4}{section.5}%
+\contentsline {section}{\numberline {6}Baseline}{5}{section.6}%
+\contentsline {section}{\numberline {7}Experiments}{8}{section.7}%
+\contentsline {section}{\numberline {8}Results}{8}{section.8}%
+\contentsline {section}{\numberline {9}Conclusions}{8}{section.9}%
+\contentsline {section}{\numberline {10}Appendix}{8}{section.10}%
