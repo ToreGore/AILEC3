@@ -39,12 +39,25 @@ M.~Mitchell.
 \newblock {\em An introduction to genetic algorithms}.
 \newblock MIT press, 1998.
 
+\bibitem{nzanywayingoma2017effective}
+F.~NZanywayingoma and Y.~Yang.
+\newblock Effective task scheduling and dynamic resource optimization based on
+  heuristic algorithms in cloud computing environment.
+\newblock {\em KSII Transactions on Internet and Information Systems (TIIS)},
+  11(12):5780--5802, 2017.
+
 \bibitem{patil2015optimal}
 V.~Patil and D.~Pawar.
 \newblock The optimal crossover or mutation rates in genetic algorithm: A
   review.
 \newblock {\em International Journal of Applied Engineering and Technology},
   2015.
+
+\bibitem{rafique2011cloud}
+K.~Rafique, A.~W. Tareen, M.~Saeed, J.~Wu, and S.~S. Qureshi.
+\newblock Cloud computing economics opportunities and challenges.
+\newblock In {\em 2011 4th IEEE International Conference on Broadband Network
+  and Multimedia Technology}, pages 401--406. IEEE, 2011.
 
 \bibitem{sajid2013cloud}
 M.~Sajid and Z.~Raza.
@@ -57,6 +70,13 @@ A.~Uchechukwu, K.~Li, Y.~Shen, et~al.
 \newblock Energy consumption in cloud computing data centers.
 \newblock {\em International Journal of Cloud Computing and Services Science
   (IJ-CLOSER)}, 3(3):31--48, 2014.
+
+\bibitem{yusoh2012composite}
+Z.~I.~M. Yusoh and M.~Tang.
+\newblock Composite saas placement and resource optimization in cloud computing
+  using evolutionary algorithms.
+\newblock In {\em 2012 IEEE Fifth International Conference on Cloud Computing},
+  pages 590--597. IEEE, 2012.
 
 \bibitem{gaworkflow}
 B.~Zoltan, Z.~Blahunka, F.~Dezso, I.~Peter, N.~Bela, and S.~Zsolt.
