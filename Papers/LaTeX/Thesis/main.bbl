@@ -5,6 +5,17 @@ R.~K. Ahuja, J.~B. Orlin, and A.~Tiwari.
 \newblock A greedy genetic algorithm for the quadratic assignment problem.
 \newblock {\em Computers & Operations Research}, 27(10):917--934, 2000.
 
+\bibitem{alba2008introduction}
+E.~Alba and B.~Dorronsoro.
+\newblock Introduction to cellular genetic algorithms.
+\newblock In {\em Cellular Genetic Algorithms}, pages 3--20. Springer, 2008.
+
+\bibitem{alcaraz2001robust}
+J.~Alcaraz and C.~Maroto.
+\newblock A robust genetic algorithm for resource allocation in project
+  scheduling.
+\newblock {\em Annals of operations Research}, 102(1):83, 2001.
+
 \bibitem{dillon2010cloud}
 T.~Dillon, C.~Wu, and E.~Chang.
 \newblock Cloud computing: issues and challenges.
@@ -16,12 +27,24 @@ S.~Forrest.
 \newblock Genetic algorithms.
 \newblock {\em ACM computing surveys (CSUR)}, 28(1):77--80, 1996.
 
+\bibitem{hassan2005comparison}
+R.~Hassan, B.~Cohanim, O.~De~Weck, and G.~Venter.
+\newblock A comparison of particle swarm optimization and the genetic
+  algorithm.
+\newblock In {\em 46th AIAA/ASME/ASCE/AHS/ASC structures, structural dynamics
+  and materials conference}, page 1897, 2005.
+
 \bibitem{hassanat2019choosing}
 A.~Hassanat, K.~Almohammadi, E.-a. Alkafaween, E.~Abunawas, A.~Hammouri, and
   V.~S. Prasath.
 \newblock Choosing mutation and crossover ratios for genetic algorithms—a
   review with a new dynamic approach.
 \newblock {\em Information}, 10(12):390, 2019.
+
+\bibitem{holland1975adaptation}
+H.~Jh.
+\newblock Adaptation in natural and artificial systems.
+\newblock {\em Ann Arbor}, 1975.
 
 \bibitem{kramer2017genetic}
 O.~Kramer and O.~Kramer.
@@ -77,6 +100,13 @@ Z.~I.~M. Yusoh and M.~Tang.
   using evolutionary algorithms.
 \newblock In {\em 2012 IEEE Fifth International Conference on Cloud Computing},
   pages 590--597. IEEE, 2012.
+
+\bibitem{zolfaghari2002comparative}
+S.~Zolfaghari and M.~Liang.
+\newblock Comparative study of simulated annealing, genetic algorithms and tabu
+  search for solving binary and comprehensive machine-grouping problems.
+\newblock {\em International Journal of Production Research}, 40(9):2141--2158,
+  2002.
 
 \bibitem{gaworkflow}
 B.~Zoltan, Z.~Blahunka, F.~Dezso, I.~Peter, N.~Bela, and S.~Zsolt.
