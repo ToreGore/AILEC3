@@ -1,9 +1,12 @@
-\contentsline {section}{\numberline {1}Abstract}{1}{section.1}% 
-\contentsline {section}{\numberline {2}Introduction}{1}{section.2}% 
-\contentsline {section}{\numberline {3}Outlining the problem}{4}{section.3}% 
-\contentsline {section}{\numberline {4}Literature Review}{4}{section.4}% 
-\contentsline {section}{\numberline {5}Dataset}{5}{section.5}% 
-\contentsline {section}{\numberline {6}Baseline}{6}{section.6}% 
-\contentsline {section}{\numberline {7}Researched algorithms}{10}{section.7}% 
-\contentsline {section}{\numberline {8}Results}{10}{section.8}% 
-\contentsline {section}{\numberline {9}Conclusions}{10}{section.9}% 
+\contentsline {section}{\numberline {1}Abstract}{1}{section.1}%
+\contentsline {section}{\numberline {2}Introduction}{1}{section.2}%
+\contentsline {section}{\numberline {3}Outlining the problem}{4}{section.3}%
+\contentsline {section}{\numberline {4}Literature Review}{4}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Hybrid Genetic Algorithm for Cloud Computing Applications by Zhu et al.}{5}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}A New Resource Scheduling Strategy Based on Genetic Algorithm in Cloud Computing Environment by Gu et al.}{6}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Load Balancing Task Scheduling Based on Genetic Algorithm in Cloud Computing by Tingting et al.}{7}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Dataset}{9}{section.5}%
+\contentsline {section}{\numberline {6}Baseline}{10}{section.6}%
+\contentsline {section}{\numberline {7}Researched algorithms}{14}{section.7}%
+\contentsline {section}{\numberline {8}Results}{14}{section.8}%
+\contentsline {section}{\numberline {9}Conclusions}{14}{section.9}%

@@ -22,10 +22,21 @@ T.~Dillon, C.~Wu, and E.~Chang.
 \newblock In {\em 2010 24th IEEE international conference on advanced
   information networking and applications}, pages 27--33. IEEE, 2010.
 
+\bibitem{elzeki2012improved}
+O.~Elzeki, M.~Reshad, and M.~A. Elsoud.
+\newblock Improved max-min algorithm in cloud computing.
+\newblock {\em International Journal of Computer Applications}, 50(12), 2012.
+
 \bibitem{forrest1996genetic}
 S.~Forrest.
 \newblock Genetic algorithms.
 \newblock {\em ACM computing surveys (CSUR)}, 28(1):77--80, 1996.
+
+\bibitem{gu2012new}
+J.~Gu, J.~Hu, T.~Zhao, and G.~Sun.
+\newblock A new resource scheduling strategy based on genetic algorithm in
+  cloud computing environment.
+\newblock {\em J. Comput.}, 7(1):42--52, 2012.
 
 \bibitem{hassan2005comparison}
 R.~Hassan, B.~Cohanim, O.~De~Weck, and G.~Venter.
@@ -40,6 +51,12 @@ A.~Hassanat, K.~Almohammadi, E.-a. Alkafaween, E.~Abunawas, A.~Hammouri, and
 \newblock Choosing mutation and crossover ratios for genetic algorithms—a
   review with a new dynamic approach.
 \newblock {\em Information}, 10(12):390, 2019.
+
+\bibitem{jakobovic1999adaptive}
+D.~Jakobovi{\'c} and M.~Golub.
+\newblock Adaptive genetic algorithm.
+\newblock {\em Journal of computing and information technology}, 7(3):229--235,
+  1999.
 
 \bibitem{holland1975adaptation}
 H.~Jh.
@@ -82,11 +99,25 @@ K.~Rafique, A.~W. Tareen, M.~Saeed, J.~Wu, and S.~S. Qureshi.
 \newblock In {\em 2011 4th IEEE International Conference on Broadband Network
   and Multimedia Technology}, pages 401--406. IEEE, 2011.
 
+\bibitem{ross1995comparing}
+P.~Ross and D.~Corne.
+\newblock Comparing genetic algorithms, simulated annealing, and stochastic
+  hillclimbing on timetabling problems.
+\newblock In {\em Evolutionary Computing: AISB Workshop Sheffield, UK, April
+  3--4, 1995 Selected Papers}, pages 94--102. Springer, 1995.
+
 \bibitem{sajid2013cloud}
 M.~Sajid and Z.~Raza.
 \newblock Cloud computing: Issues & challenges.
 \newblock In {\em International Conference on Cloud, Big Data and Trust}, pages
   13--15. sn, 2013.
+
+\bibitem{sexton1999optimization}
+R.~S. Sexton, R.~E. Dorsey, and J.~D. Johnson.
+\newblock Optimization of neural networks: A comparative analysis of the
+  genetic algorithm and simulated annealing.
+\newblock {\em European Journal of Operational Research}, 114(3):589--601,
+  1999.
 
 \bibitem{uchechukwu2014energy}
 A.~Uchechukwu, K.~Li, Y.~Shen, et~al.
@@ -94,12 +125,45 @@ A.~Uchechukwu, K.~Li, Y.~Shen, et~al.
 \newblock {\em International Journal of Cloud Computing and Services Science
   (IJ-CLOSER)}, 3(3):31--48, 2014.
 
+\bibitem{vasan2009comparative}
+A.~Vasan and K.~S. Raju.
+\newblock Comparative analysis of simulated annealing, simulated quenching and
+  genetic algorithms for optimal reservoir operation.
+\newblock {\em Applied soft computing}, 9(1):274--281, 2009.
+
+\bibitem{wang2014load}
+T.~Wang, Z.~Liu, Y.~Chen, Y.~Xu, and X.~Dai.
+\newblock Load balancing task scheduling based on genetic algorithm in cloud
+  computing.
+\newblock In {\em 2014 IEEE 12th international conference on dependable,
+  autonomic and secure computing}, pages 146--152. IEEE, 2014.
+
+\bibitem{youssef2001evolutionary}
+H.~Youssef, S.~M. Sait, and H.~Adiche.
+\newblock Evolutionary algorithms, simulated annealing and tabu search: a
+  comparative study.
+\newblock {\em Engineering Applications of Artificial Intelligence},
+  14(2):167--181, 2001.
+
 \bibitem{yusoh2012composite}
 Z.~I.~M. Yusoh and M.~Tang.
 \newblock Composite saas placement and resource optimization in cloud computing
   using evolutionary algorithms.
 \newblock In {\em 2012 IEEE Fifth International Conference on Cloud Computing},
   pages 590--597. IEEE, 2012.
+
+\bibitem{5301850}
+C.~Zhao, S.~Zhang, Q.~Liu, J.~Xie, and J.~Hu.
+\newblock Independent tasks scheduling based on genetic algorithm in cloud
+  computing.
+\newblock In {\em 2009 5th International Conference on Wireless Communications,
+  Networking and Mobile Computing}, pages 1--4, 2009.
+
+\bibitem{zhu2011genetic}
+K.~Zhu, H.~Song, L.~Liu, J.~Gao, and G.~Cheng.
+\newblock Hybrid genetic algorithm for cloud computing applications.
+\newblock In {\em 2011 IEEE Asia-Pacific Services Computing Conference}, pages
+  182--187, 2011.
 
 \bibitem{zolfaghari2002comparative}
 S.~Zolfaghari and M.~Liang.
